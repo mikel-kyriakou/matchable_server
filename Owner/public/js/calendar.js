@@ -42,26 +42,6 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   });
 
-  // Fetch events from the server
-  // $.ajax({
-  //   url: 'http://192.168.1.142:8000/owner/reservations/all/future', // Endpoint on your server
-  //   method: 'GET',
-  //   success: function(response) {
-  //     // Add fetched events to the calendar
-  //     response.forEach(function(event) {
-  //       calendar.addEvent({
-  //         title: event.title,
-  //         start: event.start,
-  //         end: event.end
-  //       });
-  //     });
-  //   },
-  //   error: function() {
-  //     alert('There was an error while fetching events!');
-  //   }
-  // });
-
-
   calendar.render();
 
   // Get modal elements

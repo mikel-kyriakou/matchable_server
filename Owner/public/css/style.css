@@ -84,7 +84,7 @@ button{
 }
 
 .hero-section{
-    height: calc(100vh - 80px);/* Adjust height to fit the viewport minus the header height */
+    height: calc(100vh - 80px);
     margin: 80px 0;
     background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(images/football.png);
     background-position: center top ;
@@ -96,7 +96,7 @@ button{
 }
 
 .section-image {
-    flex: 1; /* Take up half of the hero section */
+    flex: 1; 
     background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(images/football.png);
     height: calc(100vh - 250px);
     margin: 80px 0;
@@ -310,14 +310,6 @@ footer{
     text-align: center;
 }
 
-
-/* login page 
-.login-container{
-    display: grid;
-    height: 100%;
-    place-items: center;
-    background: var(--color-third);
-}*/
 
 .login-container{
     max-width: 440px;
